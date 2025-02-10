@@ -1,0 +1,95 @@
+/* Background gradient */
+body.bg-gradient {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Glassmorphism card */
+.color-picker-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+/* Color picker box */
+.color-box {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.color-box:hover {
+    transform: scale(1.05);
+}
+
+/* Slider group styles */
+.slider-group label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+/* Sliders */
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 8px;
+    background: #ccc;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+/* Slider thumbs */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+/* Number input */
+input[type="number"] {
+    width: 70px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading gradient */
+.text-gradient {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+/* Glassmorphism effect */
+.glassmorphism {
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
